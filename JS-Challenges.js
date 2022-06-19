@@ -1,6 +1,6 @@
 // 1. Write a function that takes a number and returns true if it is a positive number and false if it is a negative number.
 
-function isNumberPositive(item) {
+const isNumberPositive = (item) => {
 
     if(item >= 0){
         return true;
@@ -38,4 +38,17 @@ const getLastName = (lastName) => {
 
 console.log(getLastName(["Charlie", "Rob", "Andy"]))
 console.log(getLastName(["Ash", "Stu"]))
+
 //5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
+
+const allNumbersPositive = (numbers) => {
+    for (let i = 0; i < numbers.length; i++){
+        if (!isNumberPositive(numbers[i])){
+            return false;
+        }
+    } 
+    return true;
+}
+
+console.log(allNumbersPositive([2,4,5])); 
+console.log(allNumbersPositive([-5,4,6]));
