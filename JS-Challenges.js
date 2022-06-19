@@ -19,6 +19,8 @@ const convertDaysToAge = (days) => {
     return parseInt(days / 365);
 }
 
+console.log(convertDaysToAge(3650));
+console.log(convertDaysToAge(6750));
 console.log(convertDaysToAge(4200));
 
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
