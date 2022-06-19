@@ -22,6 +22,16 @@ const convertDaysToAge = (days) => {
 console.log(convertDaysToAge(400));
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
 
+const getLargestNumber = (a, b, c) => {
+    return Math.max(a, b, c)
+}
+
+console.log(getLargestNumber(2, 1, 4))
+console.log(getLargestNumber(6, 2, 3))
+
 // 4. Write a function that takes an array of names and returns the last name from the array of names.
 
+const getLastName = (lastName) => {
+    
+}
 //5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
