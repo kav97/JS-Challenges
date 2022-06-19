@@ -1,5 +1,18 @@
 // 1. Write a function that takes a number and returns true if it is a positive number and false if it is a negative number.
 
+function isNumberPositive(item) {
+
+    if(item >= 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log(isPositive(-6));
+console.log(isPositive(5));
+
 // 2. Write a function that takes a number of days and converts it into an age.
 
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
