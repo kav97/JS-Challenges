@@ -10,11 +10,16 @@ function isNumberPositive(item) {
     }
 }
 
-console.log(isPositive(-6));
-console.log(isPositive(5));
+console.log(isNumberPositive(-6));
+console.log(isNumberPositive(5));
 
 // 2. Write a function that takes a number of days and converts it into an age.
 
+const convertDaysToAge = (days) => {
+    return days / 365;
+}
+
+console.log(convertDaysToAge(400));
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
 
 // 4. Write a function that takes an array of names and returns the last name from the array of names.
